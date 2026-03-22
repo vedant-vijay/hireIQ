@@ -38,6 +38,7 @@ class ScreeningResultCreate(BaseModel):
 
 class ScreenResultResponse(BaseModel):
     id: int
+    candidate_id: int
     match_score: float
     reasoning: str
     recommendation: str
